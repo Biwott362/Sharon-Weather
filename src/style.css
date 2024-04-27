@@ -1,6 +1,6 @@
+
 body{
     background:linear-gradient(130deg, #f9f7fe, #5daeff);
-    background-color:#f9f7fe;
     font-family: "Merriweather", serif;
     font-weight: 300;
     font-style:normal
@@ -78,6 +78,35 @@ font-weight: bold;
     margin-top: 16px;
     font-size:28px;
 }
+
+.weather-forecast {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  .weather-forecast-date {
+    text-align: center;
+    color: rgba(39, 33, 66, 0.4);
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+  .weather-forecast-icon {
+    width: 88px;
+    height:80px;
+    display:block;
+    margin:0 auto;
+  }
+  .weather-forecast-temperatures {
+    text-align: center;
+    color: #8352f6;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .weather-forecast-temperature {
+    padding: 0 2px;
+  }
 
 footer{
     margin-top:-80px;
